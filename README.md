@@ -12,6 +12,44 @@ To run the program, enter the below command:
 Follow the instructions displayed to go through the process of performing a transaction with the ATM API.
 Correct security pin to proceed with the transaction is 1111. Further instructions for using the program will be displayed after entering the pin.
 
+## Example run:
+```
+Enter 4 digit pin number or enter 0 to exit:
+```
+User input: 1111
+```
+Pin verification successfull
+Select one of the below accounts by serial number or enter 0 to exit: 
+1. 1233
+2. 1232
+3. 1231
+```
+User input: 3
+```
+What would you like to do today
+1. See Balance
+2. Withdraw Money
+3. Deposit Money
+Select one of the above methods by serial number or enter 0 to exit
+```
+User input: 2
+```
+Please enter amount to withdraw
+```
+User input: 100
+```
+Amount before transaction: 599
+Amount after transaction: 499
+```
+```
+Transaction completed! Would you like to perform another transaction? 
+yes/no?
+```
+User input: no
+```
+Thank you for banking with us. Have a nice day!
+```
+
 ## About the project
 The project consists of the 4 following files.
 
