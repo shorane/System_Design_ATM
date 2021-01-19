@@ -97,7 +97,7 @@ int ATM::methodSelectionMenu()
     cout << "What would you like to do today" << endl;
     cout << "1. See Balance" << endl;
     cout << "2. Withdraw Money" << endl;
-    cout << "3. Deposit Money" << endl << "Select one of the below methods by serial number or enter 0 to exit" << endl;
+    cout << "3. Deposit Money" << endl << "Select one of the above methods by serial number or enter 0 to exit" << endl;
     int methodId;
     cin >> methodId;
     if (methodId == 0) return 0;
