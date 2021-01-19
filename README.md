@@ -17,7 +17,7 @@ The correct security pin to proceed with the transaction is 1111. Further instru
 Validity checks have been implemented to ensure only correct information is accepted by the ATM instance.
 
 ## Flowchart of the logic implemented:
-<img src = "https://github.com/shorane/System_Design_ATM/blob/master/atm_flow.png" height="250"/>
+<img src = "https://github.com/shorane/System_Design_ATM/blob/master/atm_flow.png" height="300"/>
 
 ## Example run:
 
