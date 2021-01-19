@@ -10,14 +10,15 @@ To run the program, enter the below command:
 	./main
 
 Follow the instructions displayed to go through the process of performing a transaction with the ATM API.
-Correct security pin to proceed with the transaction is 1111. Further instructions for using the program will be displayed after entering the pin.
+Correct security pin to proceed with the transaction is 1111. Further instructions for using the program will be displayed after entering the pin. An example run is showcased below.
+Validity checks have been implemented to ensure only correct information is accepted by the ATM instance.
 
 ## Example run:
 
 ```
 Enter 4 digit pin number or enter 0 to exit:
 ```
-User input: 1111
+User input: 1111	(there are three tries to enter the correct pin, otherwise the session is terminated)
 ```
 Pin verification successfull
 Select one of the below accounts by serial number or enter 0 to exit: 
@@ -37,14 +38,14 @@ User input: 2
 ```
 Please enter amount to withdraw
 ```
-User input: 100
+User input: 100		(A withdrawal higher than the current balance will result in failure of transaction)
 ```
 Amount before transaction: 599
 Amount after transaction: 499
 Transaction completed! Would you like to perform another transaction? 
 yes/no?
 ```
-User input: no
+User input: no		(if entered yes, the session jumps to account selection and proceeds from there)
 ```
 Thank you for banking with us. Have a nice day!
 ```
