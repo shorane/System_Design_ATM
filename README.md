@@ -84,4 +84,5 @@ It has the structure definition for holding the card holder data. It has the fol
 This file acts as the central database and also handles all transactions and requests from ATM.h. It has functions that initialize the dummy accounts, checks the input pin obtained from ATM.h against the true pin stored in the database, and display or modify balance in the accounts.
 The bankAPI functions are seperated away from the class functions of the ATM class to mimick realistic behavior, where the ATM client just queries the bank server for information, or to make changes to the balance of the card holder. Hence, the bankAPI functionality can be thought of as a bank server.
 
-[flowchart](https://github.com/shorane/System_Design_ATM/blob/master/atm_flow.png)
+
+<img src = "https://github.com/shorane/System_Design_ATM/blob/master/atm_flow.png" height="400"/>
