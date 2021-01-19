@@ -40,8 +40,6 @@ User input: 100
 ```
 Amount before transaction: 599
 Amount after transaction: 499
-```
-```
 Transaction completed! Would you like to perform another transaction? 
 yes/no?
 ```
@@ -79,6 +77,3 @@ It simply has the structure which holds the user's data. It has the following da
 **3. bankAPI.h**
 This file acts as the central database and also handles all transactions and requests from SimpleATM.h. It has functions that initialize the dummy accounts, checks the input pin obtained from simpleATM.h against the true pin stored in the database, and display or modify balance in the accounts.
 The bankAPI functions are seperated away from the class functions of the ATM class to mimick realistic behavior, where the ATM client just queries the bank server for information, or to make changes to the balance of the card holder. Hence, the bankAPI functionality can be thought of as a bank server.
-```
-asdf
-```
