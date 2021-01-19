@@ -13,6 +13,7 @@ Follow the instructions displayed to go through the process of performing a tran
 Correct security pin to proceed with the transaction is 1111. Further instructions for using the program will be displayed after entering the pin.
 
 ## Example run:
+
 ```
 Enter 4 digit pin number or enter 0 to exit:
 ```
