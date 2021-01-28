@@ -40,6 +40,6 @@ int main()
         cin >> option;
         if (option == "no") running = false; 
     }   
-    cout << "Thank you for banking with us. Have a nice day!" << endl;
+    cout << "Thank you for banking with us. Have a nice day!!" << endl;
     return 0;
 }
