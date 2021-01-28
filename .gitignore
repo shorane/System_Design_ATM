@@ -1,3 +1,11 @@
+# Ignore executables
+executables/
+
+# alternative method
+*
+!*.*
+!*/
+
 # Prerequisites
 *.d
 
