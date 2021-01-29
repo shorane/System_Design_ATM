@@ -1,5 +1,5 @@
 # Ignore executables
-executables/
+execs/
 
 # alternative method
 *
