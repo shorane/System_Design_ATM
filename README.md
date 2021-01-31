@@ -3,32 +3,38 @@ A console based ATM implementation in C++.
 
 Session flow: Insert Card => Enter PIN number => Select Account => See Balance/Deposit/Withdraw
 
+## Running the project using CMake
+Set the working directory of the teminal/command prompt to the project folder.
+
+Enter below commands to compile the program:
+```
+project_folder$ mkdir build
+project_folder$ cd build
+project_folder/build$ cmake ..
+project_folder/build$ make
+```
+To run the program, enter the below command:
+```	
+project_folder/build$ ./main
+```
+The above set of instructions ensures a clean and organized directory is maintained. 
+
+If you want to start over again, just delete the contents of the build folder and follow above compilation instructions.
+
 ## Running the project using gcc compiler
 The code compiles under gcc 4.8.4 with optimization level 1. 
 
-Set the terminal/command prompt working directory to the src folder in the project folder.
+Set the working directory of the terminal/command prompt to the src folder in the project folder.
 
 Enter below command to compile the code:
 ```
-	g++ -std=c++11 -O1 driver.cpp -o main
+project_folder/src$ g++ -std=c++11 -O1 driver.cpp -o main
 ```
 To run the program, enter the below command:
 ```	
-	./main
+project_folder/src$ ./main
 ```
 
-## Running the project using CMake
-Set teminal/command prompt directory to the project folder.
-
-Enter below commands to compile the code:
-```
-	cmake .
-	make
-```
-To run the program, enter the below command:
-```	
-	./main
-```
 ## Using the program: 
 Follow the instructions displayed to go through the process of performing a transaction with the ATM API.
 
