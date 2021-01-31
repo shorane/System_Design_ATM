@@ -8,14 +8,16 @@ Set the working directory of the teminal/command prompt to the project folder.
 
 Enter below commands to compile the program:
 ```
-project_folder$ mkdir build
-project_folder$ cd build
-project_folder/build$ cmake ..
-project_folder/build$ make
+mkdir build
+```
+Set the working directory of the teminal/command prompt to the build folder in the project folder using the command.
+```
+cmake ..
+make
 ```
 To run the program, enter the below command:
 ```	
-project_folder/build$ ./main
+./main
 ```
 The above set of instructions ensures a clean and organized directory is maintained. 
 
@@ -28,11 +30,11 @@ Set the working directory of the terminal/command prompt to the src folder in th
 
 Enter below command to compile the code:
 ```
-project_folder/src$ g++ -std=c++11 -O1 driver.cpp -o main
+g++ -std=c++11 -O1 driver.cpp -o main
 ```
 To run the program, enter the below command:
 ```	
-project_folder/src$ ./main
+./main
 ```
 
 ## Using the program: 
@@ -45,7 +47,7 @@ Further instructions for using the program will be displayed after entering the 
 Validity checks have been implemented to ensure only correct information is accepted by the ATM instance.
 
 ## Flowchart of the logic implemented:
-<img src = "https://github.com/shorane/System_Design_ATM/blob/master/atm_flow.png" height="300"/>
+<img src = "https://github.com/shorane/System_Design_ATM/blob/master/media/atm_flow.png" height="300"/>
 
 ## Example run:
 
