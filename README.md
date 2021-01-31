@@ -4,7 +4,10 @@ A console based ATM implementation in C++.
 Session flow: Insert Card => Enter PIN number => Select Account => See Balance/Deposit/Withdraw
 
 ## Running the project using gcc compiler
-The code compiles under gcc 4.8.4 with optimization level 1. Set the terminal/command prompt to the src directory if the folder. 
+The code compiles under gcc 4.8.4 with optimization level 1. 
+
+Set the terminal/command prompt working directory to the src folder in the project folder.
+
 Enter below command to compile the code:
 ```
 	g++ -std=c++11 -O1 driver.cpp -o main
@@ -15,7 +18,8 @@ To run the program, enter the below command:
 ```
 
 ## Running the project using CMake
-The code compiles under gcc 4.8.4 with optimization level 1. Set the terminal/command prompt to the src directory if the folder. 
+Set teminal/command prompt directory to the project folder.
+
 Enter below commands to compile the code:
 ```
 	cmake .
@@ -27,8 +31,11 @@ To run the program, enter the below command:
 ```
 ## Using the program: 
 Follow the instructions displayed to go through the process of performing a transaction with the ATM API.
+
 The correct security pin to proceed with the transaction is 1111. 
+
 Further instructions for using the program will be displayed after entering the pin. An example run is showcased below.
+
 Validity checks have been implemented to ensure only correct information is accepted by the ATM instance.
 
 ## Flowchart of the logic implemented:
