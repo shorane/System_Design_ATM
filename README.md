@@ -10,8 +10,9 @@ Enter below commands to compile the program:
 ```
 mkdir build
 ```
-Set the working directory of the teminal/command prompt to the build folder in the project folder using the command.
+Set the working directory of the teminal/command prompt to the build folder in the project folder.
 ```
+cd build
 cmake ..
 make
 ```
