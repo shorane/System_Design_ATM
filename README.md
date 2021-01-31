@@ -16,7 +16,7 @@ cd build
 cmake ..
 make
 ```
-To run the program, enter the below command:
+To run the program, enter the below command (the working directory should still be the build folder):
 ```	
 ./main
 ```
