@@ -5,13 +5,13 @@ Session flow: Insert Card => Enter PIN number => Select Account => See Balance/D
 
 ## Running the project
 The code compiles under gcc 4.8.4 with optimization level 1. Enter below command to compile the code:
-
+```
 	g++ -std=c++11 -O1 driver.cpp -o main
-
+```
 To run the program, enter the below command:
-	
+```	
 	./main
-
+```
 Follow the instructions displayed to go through the process of performing a transaction with the ATM API.
 The correct security pin to proceed with the transaction is 1111. Further instructions for using the program will be displayed after entering the pin. An example run is showcased below.
 Validity checks have been implemented to ensure only correct information is accepted by the ATM instance.
