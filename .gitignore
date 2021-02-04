@@ -1,8 +1,12 @@
 # Ignore executables
 execs/
 
-# # Ignore build folder
-# build/
+# Ignore vscode folder
+.vscode/
+*.json
+
+# Ignore build folder
+build/
 
 # alternative method
 *

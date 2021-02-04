@@ -40,6 +40,7 @@ std::shared_ptr<cardholder> getCardholder(long cardSerialIn)
             return temp;
         }
     }
+    return nullptr;
 }
 
 bool pinQuery(long cardSerialIn, int pinIn)

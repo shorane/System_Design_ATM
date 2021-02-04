@@ -25,15 +25,15 @@ int main()
     while (running)
     {
         // display all accounts, ask for a number like 1,2,3
-        long accNo = atmInstance->accountSelectionMenu();
-        if (accNo == 0) break;
+        // long accNo = atmInstance->accountSelectionMenu();
+        // if (accNo == 0) break;
 
         // ask for one of three methods, (perform validity checks of input just like above)
         int methodId = atmInstance->methodSelectionMenu();
         if (methodId == 0) break;
 
         // perform the transaction method (see balance, deposit or withdrawal)
-        atmInstance->executeTransaction(methodId, accNo);
+        atmInstance->executeTransaction(methodId);
 
         cout << "Transaction completed! Would you like to perform another transaction? " << endl << "yes/no?" << endl;
         string option;
